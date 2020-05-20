@@ -49,7 +49,7 @@ def format_number(cNumber, precision=0, group_sep=".", decimal_sep=","):
             .replace(".", ",")
             .replace("X", ".")
         )
-    return ""
+    return "0,00"
 
 
 def tagtext(oNode=None, cTag=None):
